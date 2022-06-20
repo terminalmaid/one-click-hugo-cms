@@ -8,3 +8,6 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+
+[context.production.environment]
+  HUGO_VERSION = "0.83.1"
